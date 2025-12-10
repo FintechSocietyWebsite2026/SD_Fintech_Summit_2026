@@ -26,7 +26,14 @@ const Bounty: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center p-4 mt-4 mb-4">
       <CircleCapsuleBanner title="Bounty" />
-      <div className="bg-[#0B2858] text-[#FFA200] w-full sm:w-10/12 lg:w-9/12 min-h-28 rounded-md p-4 text-lg leading-relaxed text-[#0B2858] shadow-md">
+      <div className="flex flex-col items-center justify-center p-4 mt-4 mb-4">
+        <div className="bg-[#0B2858] text-[#FFA200] w-full sm:w-10/12 lg:w-9/12 min-h-28 rounded-md p-8 text-center shadow-md flex items-center justify-center">
+          <h1 className="text-4xl font-bold whitespace-nowrap [text-shadow:_4px_3px_0px_#000000]">
+            To be released
+          </h1>
+        </div>
+      </div>
+      {/* <div className="bg-[#0B2858] text-[#FFA200] w-full sm:w-10/12 lg:w-9/12 min-h-28 rounded-md p-4 text-lg leading-relaxed text-[#0B2858] shadow-md">
           <div className="flex flex-col lg:flex-row items-center lg:items-center space-y-4 lg:space-y-0 lg:space-x-6">
           <img
             src="/sponsors/BlockchainGoodWhite.png" 
@@ -39,11 +46,11 @@ const Bounty: React.FC = () => {
           Projects that meet the UN's 17 Sustainable Development Goals can be considered to meet the requirements of this track. The BGA Track is designed to find and reward innovative projects that utilise blockchain technology to solve critical global problems, and the following are some of the representative project categories that meet the requirements of the BGA Track, but are not limited to just that:
         </p>
           </div>
-        </div>
+        </div> */}
 
 
 
-        <div className="w-full space-y-2">
+        {/* <div className="w-full space-y-2">
           {challenges.map((challenge, index) => (
             <div key={index} className="border border-[#FFA200] rounded-lg">
               <div
@@ -61,10 +68,10 @@ const Bounty: React.FC = () => {
               )}
             </div>
           ))}
-        </div>
+        </div> */}
 
        {/* Sign-up Link Section */}
-       <div className="mt-6 text-center">
+       {/* <div className="mt-6 text-center">
           <p className="text-[#FFA200] mb-4 text-lg">
             To be considered for the track, sign up using this link:
           </p>
@@ -76,10 +83,10 @@ const Bounty: React.FC = () => {
           >
             Sign Up Here
           </a>
-        </div>
+        </div> */}
 
         {/* Button for more info */}
-        <div className="mt-6 text-center">
+        {/* <div className="mt-6 text-center">
           <a
             href="https://docs.google.com/document/d/1GI_Ku9lhANsJ43DnesVp2xxaZ5hXf-NzshEiVlw3feI/edit"
             target="_blank"
@@ -88,9 +95,9 @@ const Bounty: React.FC = () => {
           >
             Click here for more
           </a>
-        </div>
-      </div>
-      </div>
+        </div> */}
+      {/* </div> */}
+    </div>
   );
 };
 
