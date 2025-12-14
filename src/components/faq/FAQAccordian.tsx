@@ -86,12 +86,12 @@ export const mockData: Record<
     },
     {
       question: "Where do we submit our files for the hackathon?",
-      answer: "You may submit your files via our devpost. (https://nus-fintech-summit-2025.devpost.com/)", //TODO update devpost
+      answer: "You may submit your files via our devpost. (https://nus-fintech-summit-2026.devpost.com/)", //TODO update devpost
     },
     {
       question: "What is the judging criteria and submission requirements?",
       answer:
-        "You may refer to our devpost. (https://nus-fintech-summit-2025.devpost.com/)", //TODO update devpost
+        "You may refer to our devpost. (https://nus-fintech-summit-2026.devpost.com/)", //TODO update devpost
     },
     {
       question: "What does it cost?",
