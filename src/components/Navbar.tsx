@@ -108,6 +108,10 @@ const Navbar: React.FC = () => {
             )}
           </div>
 
+          <Link href="/panel" className="hidden lg:block text-white font-bold text-lg hover:text-gray-200" style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)" }}>
+            PANEL DISCUSSION
+          </Link>
+
           <Link href="/sponsors" className="hidden lg:block text-white font-bold text-lg hover:text-gray-200" style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)" }}>
             SPONSORS
           </Link>
@@ -276,6 +280,11 @@ const Navbar: React.FC = () => {
                 </div>
               </div>
             </div>
+
+            <Link href="/panel" 
+            onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 hover:text-gray-200">
+              PANEL DISCUSSION
+            </Link>
 
             <Link href="/sponsors" 
             onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 hover:text-gray-200">

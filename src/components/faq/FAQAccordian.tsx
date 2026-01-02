@@ -72,7 +72,7 @@ export const mockData: Record<
     {
       question: "Are there any requirements for the hackathon team formation?",
       answer:
-        "The team should consist of 1-5 members from any tertiary institute. Please appoint a Team Lead to be the main point of contact throughout the hackathon.",
+        "The team should consist of 3-5 members from any tertiary institute. Please appoint a Team Lead to be the main point of contact throughout the hackathon.",
     },
     {
       question: "How do we sign up for the hackathon?",
