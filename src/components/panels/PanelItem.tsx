@@ -37,14 +37,17 @@ const PanelItem: React.FC<PanelItemProps> = ({
       {/* Left-side image */}
       <div
         style={{ borderRadius: 50 }}
-        className="w-40 overflow-hidden flex flex-col"
+        className="w-32 overflow-hidden flex flex-col sm:w-32 lg:w-40"
       >
         {speakerImages.map((imgSrc, index) => (
           <img
             key={index}
             src={imgSrc}
             alt={`${imageAlt} ${index + 1}`}
-            className="object-cover w-full h-40 rounded-lg"
+            className="object-cover w-full
+              h-16 sm:h-24 lg:h-40
+              rounded-lg
+              mb-1 sm:mb-2"
           />
         ))}
       </div>

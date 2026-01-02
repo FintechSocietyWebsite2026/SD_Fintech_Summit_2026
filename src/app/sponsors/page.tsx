@@ -18,6 +18,8 @@ const Sponsors = () => {
         // { name: "Gigdao", imgSrc: "/sponsors/Gigdao.png", link: "https://gigdao.io" },
         { name: "Moledao", imgSrc: "/sponsors/Moledao.png", link: "https://moledao.io" },
         // { name: "Seegrowth", imgSrc: "/sponsors/Seegrowth.png", link: "https://seegrowth.framer.website/" },
+        { name: "Animoca Brands", imgSrc: "/sponsors/animoca.png", link: "https://www.animocabrands.com/" },
+        { name: "Singapore Fintech Youth Chapter", imgSrc: "/sponsors/syfc.png", link: "https://www.fintechyouth.org/" },
     ];
 
     return (
