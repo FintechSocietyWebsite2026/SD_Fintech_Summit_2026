@@ -72,7 +72,7 @@ export const mockData: Record<
     {
       question: "Are there any requirements for the hackathon team formation?",
       answer:
-        "The team should consist of 1-5 members from any tertiary institute. Please appoint a Team Lead to be the main point of contact throughout the hackathon.",
+        "The team should consist of 3-5 members from any tertiary institute. Please appoint a Team Lead to be the main point of contact throughout the hackathon.",
     },
     {
       question: "How do we sign up for the hackathon?",
@@ -86,12 +86,12 @@ export const mockData: Record<
     },
     {
       question: "Where do we submit our files for the hackathon?",
-      answer: "You may submit your files via our devpost. (https://nus-fintech-summit-2025.devpost.com/)", //TODO update devpost
+      answer: "You may submit your files via our devpost. (https://nus-fintech-summit-2026.devpost.com/)", //TODO update devpost
     },
     {
       question: "What is the judging criteria and submission requirements?",
       answer:
-        "You may refer to our devpost. (https://nus-fintech-summit-2025.devpost.com/)", //TODO update devpost
+        "You may refer to our devpost. (https://nus-fintech-summit-2026.devpost.com/)", //TODO update devpost
     },
     {
       question: "What does it cost?",

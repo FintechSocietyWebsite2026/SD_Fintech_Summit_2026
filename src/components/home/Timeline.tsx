@@ -16,7 +16,7 @@ const timelineItems: TimelineItemType[] = [
     date: "15 DEC 2025 - 01 JAN 2026",
   },
   {
-    title: "Physical Workshops",
+    title: "Online Workshops",
     description: "Technical, product, and FinTech-related (open to all).",
     date: "05-06 JAN 2026",
   },
