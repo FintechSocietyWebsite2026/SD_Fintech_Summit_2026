@@ -10,12 +10,16 @@ const Sponsors = () => {
     const platinumSponsors = [
         { name: "Ripple", imgSrc: "/sponsors/Ripple.png", link: "https://ripple.com" }
     ];
-    // const silverSponsors = [];
+    const silverSponsors = [
+        { name: "Metacamp", imgSrc: "/sponsors/Metacamp2.png", link: "https://www.metacamp.sg/"}
+    ];
     const communityPartners = [
         // { name: "Builderdao", imgSrc: "/sponsors/Builderdao.png", link: "https://buidlerdao.xyz/" },
         // { name: "Gigdao", imgSrc: "/sponsors/Gigdao.png", link: "https://gigdao.io" },
-        // { name: "Moledao", imgSrc: "/sponsors/Moledao.png", link: "https://moledao.io" },
+        { name: "Moledao", imgSrc: "/sponsors/Moledao.png", link: "https://moledao.io" },
         // { name: "Seegrowth", imgSrc: "/sponsors/Seegrowth.png", link: "https://seegrowth.framer.website/" },
+        { name: "Animoca Brands", imgSrc: "/sponsors/animoca.png", link: "https://www.animocabrands.com/" },
+        { name: "Singapore Fintech Youth Chapter", imgSrc: "/sponsors/syfc.png", link: "https://www.fintechyouth.org/" },
     ];
 
     return (
@@ -32,12 +36,12 @@ const Sponsors = () => {
                 <div className="flex-grow order-2 lg:order-2">
                     <SponsorSection title="Gold" sponsors={goldSponsors} />
                 </div>
-                {/* <div className="flex-grow order-3 lg:order-3">
+                <div className="flex-grow order-3 lg:order-3">
                     <SponsorSection title="Silver" sponsors={silverSponsors} />
-                </div> */}
-                {/* <div className="flex-grow order-4 lg:order-4">
+                </div>
+                <div className="flex-grow order-4 lg:order-4">
                     <SponsorSection title="Community Partners" sponsors={communityPartners} />
-                </div> */}
+                </div>
             </div>
         </div>
     );
